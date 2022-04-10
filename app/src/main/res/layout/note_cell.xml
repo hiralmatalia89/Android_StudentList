@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bb">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Student Detail"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to edit data"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="11sp"/>
+
+
+    <TextView
+        android:id="@+id/cellCourseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/cellStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/labelPriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Priority:"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/cellPriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Priority"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+
+
+</LinearLayout>
